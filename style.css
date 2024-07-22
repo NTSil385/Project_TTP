@@ -380,7 +380,6 @@ header a{
 
 .footer {
     color: #333;
-   
   }
   .footer h5 {
     font-size: 18px;
@@ -406,6 +405,9 @@ header a{
   .footer ul li a:hover {
     color: var(--primary-color);
   }
+ div.col-md-4{
+    padding-left: 90px;
+ }
 
   .redes {
     width: 80px;

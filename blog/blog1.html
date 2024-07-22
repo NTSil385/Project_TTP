@@ -13,6 +13,24 @@
   <body>
     <div class="full">
       <header>
+        <button onclick="goHome()" class="back-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 1024 1024"
+          >
+            <path
+              fill="currentColor"
+              d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64"
+            />
+            <path
+              fill="currentColor"
+              d="m237.248 512l265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312z"
+            />
+          </svg>
+          Về trang chủ
+        </button>
         <h1>Dịch Vụ Sửa Chữa Điện Nước Chuyên Nghiệp</h1>
       </header>
 
@@ -137,21 +155,38 @@
           </div>
         </div>
       </div>
-
-      <!-- <footer id="footer">
-        <p>
-          Đừng để các sự cố điện nước làm gián đoạn cuộc sống của bạn. Hãy liên
-          hệ với chúng tôi ngay hôm nay để được hỗ trợ và tư vấn miễn phí. Chúng
-          tôi luôn sẵn sàng đáp ứng mọi yêu cầu của bạn, từ những vấn đề nhỏ
-          nhất đến các dự án sửa chữa lớn.
-        </p>
-        <ul>
-          <li>Hotline:0900000000</li>
-          <li>Email: phuongtramsong@gmail.com</li>
-          <li>Địa chỉ: Bình Tân, TP.HCM</li>
-        </ul>
-        <h4>Liên hệ ngay hôm nay để trải nghiệm dịch vụ tốt nhất!</h4>
-      </footer> -->
     </div>
+
+
+    <footer id="footer">
+      <div class="footerdetail">
+        <div class="col">
+          <h2>THỢ THÀNH PHỐ</h2>
+          <p>Nâng niu ngôi nhà bạn</p>
+        </div>
+        <div class="col">
+          <h2>Thông tin</h2>
+          <ul>
+            <li><a href="#">Về chúng tôi</a></li>
+            <li><a href="#">Liên hệ</a></li>
+            <li><a href="#">Điều khoảng dịch vụ</a></li>
+            <li><a href="#">Write by QTT</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h2>Liên hệ</h2>
+          <ul>
+            <li><a href="#">Zalo Officials</a></li>
+            <li><a href="#">Liên hệ trực tiếp: </a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // back to home
+      function goHome() {
+        window.location.href = "../index.html";
+      }
+    </script>
   </body>
 </html>
