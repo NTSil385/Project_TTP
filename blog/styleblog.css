@@ -344,10 +344,12 @@ a:hover {
 .footerdetail h2{
     font-weight: 500;
     font-size: 18px;
+    margin-bottom: 8px;
 }
 .col p{
     color: #333333;
     font-size: 16px;
+    margin-top: 0;
 }
 .col ul {
     list-style: none;
@@ -361,3 +363,13 @@ a:hover {
     color: #333333;
     font-size: 16px;
 }
+.img-logo{
+    width: 160px;
+    height: 160px;
+  }
+
+  .col.col1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }

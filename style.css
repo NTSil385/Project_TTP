@@ -384,7 +384,7 @@ header a{
   .footer h5 {
     font-size: 18px;
     color: var(--primary-color);
-    margin-bottom: 20px;
+    margin-bottom: 8px;
   }
   .footer p {
     font-size: 14px;
@@ -405,10 +405,6 @@ header a{
   .footer ul li a:hover {
     color: var(--primary-color);
   }
- div.col-md-4{
-    padding-left: 90px;
- }
-
   .redes {
     width: 80px;
     height: auto;
@@ -456,4 +452,13 @@ header a{
     width: 130%;
     border-radius: 0 10px 10px 0;
   }
-  
+
+  .img-logo{
+    width: 160px;
+    height: 160px;
+  }
+  .col-md-4.logo-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
