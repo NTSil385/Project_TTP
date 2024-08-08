@@ -123,66 +123,7 @@ a:hover {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
-    .detaillaw3 {
-        grid-template-columns: 1fr;
-        gap: 10px; 
-    }
 
-    .detaillaw3 p, .detaillaw3 img {
-        grid-column: 1 / -1; 
-        width: 100%; 
-        max-width: 100%;
-    }
-
-    .detail4 {
-        flex-direction: column;
-    }
-
-    .detaillaw4 {
-        flex: 1 1 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        width: 100%;
-    }
-
-    .steps {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .step img {
-        max-width: 100%;
-    }
-
-    .detaillaw3 {
-        grid-template-columns: 1fr;
-        gap: 10px; 
-    }
-
-    .detaillaw3 p, .detaillaw3 img {
-        grid-column: 1 / -1; 
-        width: 100%; 
-        max-width: 100%;
-    }
-
-    .detail4 {
-        flex-direction: column;
-    }
-
-    .detaillaw4 {
-        flex: 1 1 100%;
-    }
-
-}
 
 /* blog 2 */
 
@@ -373,3 +314,91 @@ a:hover {
     flex-direction: row;
     align-items: center;
   }
+
+
+  /* reponsive */
+
+  @media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .detaillaw3 {
+        grid-template-columns: 1fr;
+        gap: 10px; 
+    }
+
+    .detaillaw3 p, .detaillaw3 img {
+        grid-column: 1 / -1; 
+        width: 100%; 
+        max-width: 100%;
+    }
+
+    .detail4 {
+        flex-direction: column;
+    }
+
+    .detaillaw4 {
+        flex: 1 1 100%;
+    }
+    .footerdetail{
+        display: flex;
+        flex-direction: column;
+        margin: 0 32px;
+    }
+    .col.col1{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-name h2{
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .steps {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step img {
+        max-width: 100%;
+    }
+
+    .detaillaw3 {
+        grid-template-columns: 1fr;
+        gap: 10px; 
+    }
+
+    .detaillaw3 p, .detaillaw3 img {
+        grid-column: 1 / -1; 
+        width: 100%; 
+        max-width: 100%;
+    }
+
+    .detail4 {
+        flex-direction: column;
+    }
+
+    .detaillaw4 {
+        flex: 1 1 100%;
+    }
+    .footerdetail{
+        display: flex;
+        flex-direction: column;
+        margin: 0 32px;
+    }
+    .col.col1{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-name h2{
+        margin: 0;
+    }
+
+}
